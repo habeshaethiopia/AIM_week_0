@@ -21,7 +21,7 @@ def load_data(path):
     data = pd.concat(df_list, ignore_index=True)
     return data
 
-data = load_data('../data/*.csv')
+data = load_data('data/*.csv')
 
 # Sidebar
 # Convert 'Timestamp' column to datetime type
